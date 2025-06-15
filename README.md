@@ -37,6 +37,20 @@ Long COVID, or post-acute sequelae of SARS-CoV-2 infection (PASC), is a chronic 
 | **UCSF Chimera**     | 3D visualization of structures                 |
 | **DrugBank / PubChem** | Drug annotation and repurposing info         |
 
+![ToppGene](https://img.shields.io/badge/ToppGene-Enrichment-blue)
+![DAVID](https://img.shields.io/badge/DAVID-Annotation-success)
+![EMBOSS](https://img.shields.io/badge/EMBOSS-BioTools-orange)
+![BLAST](https://img.shields.io/badge/BLAST-Alignment-lightblue)
+![STRING](https://img.shields.io/badge/STRING-PPI-yellow)
+![Cytoscape](https://img.shields.io/badge/Cytoscape-Network-green)
+![CytoHubba](https://img.shields.io/badge/CytoHubba-HubFinder-lightgrey)
+![PPA-Pred](https://img.shields.io/badge/PPA--Pred-Docking-purple)
+![PyRx](https://img.shields.io/badge/PyRx-VirtualDocking-lightblue)
+![SwissModel](https://img.shields.io/badge/Swiss--Model-HomologyModeling-pink)
+![PDB](https://img.shields.io/badge/PDB-Structures-darkgreen)
+![Chimera](https://img.shields.io/badge/Chimera-3DViewer-blue)
+![DrugBank](https://img.shields.io/badge/DrugBank-Database-red)
+![PubChem](https://img.shields.io/badge/PubChem-ChemicalDB-lightgrey)
 
 ---
 
