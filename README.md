@@ -40,16 +40,79 @@ Long COVID, or post-acute sequelae of SARS-CoV-2 infection (PASC), is a chronic 
 
 ---
 
-## 🧬 Key Findings
+## 🔬 Key Findings
 
-- **21 GPCR-associated genes** identified, including _HRAS_, _KRAS_, _GNAQ_, _GNA11_
-- **Top-ranked therapeutic candidates** included drugs like:
-  - ✅ Naltrexone  
-  - ✅ Tipifarnib  
-  - ✅ Cabozantinib  
-  - ✅ Sotorasib  
-- **Network analysis** with Cytoscape highlighted critical GPCRs via Maximal Clique Centrality (MCC).
-- **Docking simulations** revealed high-affinity interactions supporting therapeutic potential.
+This study led to the identification of **21 GPCR-associated genes** through functional enrichment, sequence alignment, protein-protein affinity prediction, and docking simulations. These genes were analyzed in connection to long COVID symptoms and their potential as therapeutic targets.
+
+### 🧠 1. Top Candidate Genes
+
+- **HRAS, KRAS, GNAQ, and GNA11** were consistently identified across multiple analyses.
+- These genes are involved in immune signaling, neurological processes, and cellular communication—core systems disrupted in Long COVID.
+
+### 💊 2. Repurposed FDA-Approved Drugs Identified
+
+| Gene     | Associated Symptoms                         | Suggested Drugs                     |
+|----------|----------------------------------------------|--------------------------------------|
+| **GNAQ** | Venous thrombosis, pulmonary embolism        | Verteporfin, Selumetinib             |
+| **GNA11**| Ocular pain, alopecia                        | Binimetinib, Cabozantinib, Selumetinib |
+| **KRAS** | Fatigue, GI issues, autoimmunity             | Panitumumab, Cetuximab, Adagrasib, Sotorasib |
+| **PRKACA** | Memory impairment, mania, alopecia        | (Limited repurposing data)           |
+
+- Additional promising candidates: **Naltrexone**, **Tipifarnib**
+
+### 🔬 3. Docking Results
+
+- Strong binding affinities (e.g., –9.6 kcal/mol for GNAQ–CAMKK1)
+- RMSD values of **0.0** suggest highly stable receptor-ligand complexes
+- High-confidence docking pairs:
+  - GNAQ – CAMKK1
+  - PRKACA – PRKACB
+  - CAMK2A – CAMK2B
+
+### 🧬 4. Gene-Symptom Mapping
+
+- 12 of the 21 genes were mapped to Long COVID symptoms
+  - **HRAS**: Sleep apnea, reflux, alopecia  
+  - **KRAS**: Fatigue, edema, abdominal pain  
+  - **PRKAR1A**: Irregular menstruation, neuropsychiatric impairment
+
+### 🌐 5. Network & Enrichment Analysis
+
+- Cytoscape MCC analysis ranked GNA11 and GNAQ as key hub genes
+- Functional pathways enriched include:
+  - GPCR signaling
+  - Immune regulation
+  - Neurological pathways
+
+### 🧩 6. Novel Targets
+
+- Genes like GNA15, GNAT3, PRKCA lack known symptom/drug links—suggesting novel research opportunities
+
+---
+
+## ✅ Conclusion & Future Work
+
+This research project offers a comprehensive investigation into the therapeutic potential of G Protein-Coupled Receptors (GPCRs) in managing Long COVID. Through integrated computational approaches, it identified and prioritized 21 GPCR genes as potential therapeutic targets.
+
+### 🎯 Key Conclusions
+
+- GPCR genes including **HRAS, KRAS, GNAQ, GNA11** were consistently highlighted
+- Repurposed drugs such as **Naltrexone**, **Tipifarnib**, **Sotorasib**, and **Cabozantinib** showed strong therapeutic relevance
+- The role of GPCRs in immune, neurological, and vascular systems underscores their importance in long COVID
+
+### 🧪 Challenges and Limitations
+
+- Reliance on in silico methods; experimental confirmation is pending
+- Default parameter limitations may have excluded borderline results
+- Correlation ≠ causation; findings are hypothesis-generating
+
+### 🔭 Future Work
+
+- **Experimental validation** via in vitro/in vivo studies
+- **Biased ligand design** for selective GPCR targeting
+- Exploration of **autoantibody neutralization** strategies
+- Incorporating **patient-specific genetic data** for personalized therapy
+- Initiating **clinical trials** for top drug candidates
 
 ---
 
@@ -97,6 +160,6 @@ This project is licensed under the [MIT License](LICENSE). For academic use only
 
 ---
 
- The work is original and solely belongs to the author (Dhanyashri) and MSU. All materials and results are intended for academic and non-commercial research purposes only.
+| This work is original and solely belongs to the author (Dhanyashri) and MSU. All materials and results are intended for academic and non-commercial research purposes only.
 
 
